@@ -17,7 +17,17 @@ const Navbar = () => {
             </div>
           </div>
           <div className="col-8">
-            <div className="link-list"></div>
+            <ul className="link-list">
+              <li className="link-item">
+                <Link to="/about">about</Link>
+              </li>
+              <li className="link-item">
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li className="link-item">
+                <Link to="/about">about</Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
