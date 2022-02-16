@@ -5,4 +5,11 @@
   align-items: center;
   top: 0;
   left: 0;
+  background-color: var(--main_bg);
+  box-shadow: var(--shadow_color);
+
+  .row {
+    .col-4 {
+    }
+  }
 }

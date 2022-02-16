@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { GiHamburgerMenu } from "react-icons/gi";
+
 const Navbar = () => {
   return (
     <div className="navbar" id="navbar">
@@ -9,10 +11,13 @@ const Navbar = () => {
             <div className="image-menubar">
               <Link to="/" className="image">
                 <img
-                  src="https://res.cloudinary.com/abidazad/image/upload/v1644678584/icon/Solid_uo4lnz_gydtiu.svg"
+                  src="https://res.cloudinary.com/abidazad/image/upload/v1644831779/icon/azad_logo_aybjfl.png"
                   alt=""
                 />
-                <h1>azad</h1>
+                <h1>AZAD BLOG</h1>
+                <label htmlFor="toggle">
+                  <GiHamburgerMenu />
+                </label>
               </Link>
             </div>
           </div>
