@@ -9,8 +9,22 @@
   box-shadow: var(--shadow_color);
 
   .row {
+    @media only screen and(max-width:991px) {
+      flex-direction: column;
+    }
     .col-4 {
       .image-menubar {
+        label.menu_icon {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1.5rem;
+          height: 35px;
+          outline: none;
+          cursor: pointer;
+          border-radius: 5px;
+          color: #fff;
+        }
         .image {
           display: flex;
           justify-content: center;
@@ -31,6 +45,48 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+      }
+    }
+    .col-8 {
+      ul.link-list {
+        height: 75px;
+        display: flex;
+        transition: all 0.5;
+        justify-content: flex-end;
+        align-items: center;
+        grid-column-gap: 8px;
+        .link-item {
+          a {
+            font-size: 1rem;
+            color: var(--text_color);
+            font-weight: 600;
+          }
+        }
+
+        .social-icon {
+          display: flex;
+          grid-column-gap: 8px;
+          .social-link-item {
+            background-color: rgb(236, 235, 229);
+            height: 28px;
+            width: 28px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+              font-size: 18px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
       }
     }
   }

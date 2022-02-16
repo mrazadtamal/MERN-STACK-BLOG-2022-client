@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { FaFacebookSquare } from "react-icons/fa";
 
 const Navbar = () => {
   return (
@@ -8,6 +9,7 @@ const Navbar = () => {
       <div className="container">
         <div className="row">
           <div className="col-4">
+            <input type="checkbox" name="" id="toggle" />
             <div className="image-menubar">
               <Link to="/" className="image">
                 <img
@@ -17,7 +19,7 @@ const Navbar = () => {
                 <h2>AZAD BLOG</h2>
               </Link>
               <label className="menu_icon" htmlFor="toggle">
-                <GiHamburgerMenu style={{ color: "#fff" }} />
+                <GiHamburgerMenu />
               </label>
             </div>
           </div>
@@ -32,6 +34,29 @@ const Navbar = () => {
               <li className="link-item">
                 <Link to="/about">about</Link>
               </li>
+              <div className="social-icon">
+                <li className="social-link-item">
+                  <Link to="/about">
+                    <span>
+                      <FaFacebookSquare />
+                    </span>
+                  </Link>
+                </li>
+                <li className="social-link-item">
+                  <Link to="/about">
+                    <span>
+                      <FaFacebookSquare />
+                    </span>
+                  </Link>
+                </li>
+                <li className="social-link-item">
+                  <Link to="/about">
+                    <span>
+                      <FaFacebookSquare />
+                    </span>
+                  </Link>
+                </li>
+              </div>
             </ul>
           </div>
         </div>
