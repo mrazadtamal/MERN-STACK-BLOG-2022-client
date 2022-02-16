@@ -10,6 +10,28 @@
 
   .row {
     .col-4 {
+      .image-menubar {
+        .image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          h2 {
+            color: #fff;
+            margin-left: 8px;
+          }
+        }
+        img {
+          height: 50px;
+          width: 60px;
+        }
+        .menu_icon {
+          display: flex;
+        }
+        height: 75px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
     }
   }
 }

@@ -14,11 +14,11 @@ const Navbar = () => {
                   src="https://res.cloudinary.com/abidazad/image/upload/v1644831779/icon/azad_logo_aybjfl.png"
                   alt=""
                 />
-                <h1>AZAD BLOG</h1>
-                <label htmlFor="toggle">
-                  <GiHamburgerMenu />
-                </label>
+                <h2>AZAD BLOG</h2>
               </Link>
+              <label className="menu_icon" htmlFor="toggle">
+                <GiHamburgerMenu style={{ color: "#fff" }} />
+              </label>
             </div>
           </div>
           <div className="col-8">
