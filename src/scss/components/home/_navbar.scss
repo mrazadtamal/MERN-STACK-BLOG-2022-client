@@ -9,8 +9,13 @@
   box-shadow: var(--shadow_color);
 
   .row {
+    #toggle {
+      display: none;
+    }
+
     @media only screen and(max-width:991px) {
       flex-direction: column;
+
       .col-4 {
         width: 100%;
         .image-menubar {
@@ -19,17 +24,26 @@
           }
         }
       }
+
+      #toggle:checked ~ .col-8 ul.link-list.toggle {
+        height: 150px !important;
+        transition: all 0.5s;
+      }
       .col-8 {
         width: 100%;
         ul.link-list {
           flex-direction: column;
+          justify-content: flex-start !important;
+          height: 0px !important;
+          overflow: hidden;
+          grid-gap: 8px;
         }
       }
     }
     .col-4 {
       .image-menubar {
         label.menu_icon {
-          display: flex;
+          display: none;
           justify-content: center;
           align-items: center;
           font-size: 1.5rem;

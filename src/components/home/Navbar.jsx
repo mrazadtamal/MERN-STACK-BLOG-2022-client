@@ -8,8 +8,8 @@ const Navbar = () => {
     <div className="navbar" id="navbar">
       <div className="container">
         <div className="row">
+          <input type="checkbox" name="" id="toggle" />
           <div className="col-4">
-            <input type="checkbox" name="" id="toggle" />
             <div className="image-menubar">
               <Link to="/" className="image">
                 <img
@@ -24,7 +24,7 @@ const Navbar = () => {
             </div>
           </div>
           <div className="col-8">
-            <ul className="link-list">
+            <ul className="link-list toggle">
               <li className="link-item">
                 <Link to="/about">about</Link>
               </li>
