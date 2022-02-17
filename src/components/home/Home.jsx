@@ -10,19 +10,21 @@ const Home = () => {
           <div className="row">
             {/* col - 8  */}
             <div className="col-8">
-              ----------- ----- ----------- col 8 ------------ -------
+              <h1>col 8 </h1>
             </div>
             {/* col-4 */}
             <div className="col-4">
               <div className="search-category-tag">
                 <div className="search">
-                  <h1>Search</h1>
+                  <h2>Search</h2>
                   <div className="form-group">
                     <input
                       type="text"
                       className="form-control"
                       placeholder="search"
                     />
+                  </div>
+                  <div className="form-group">
                     <button className="btn btn-block">Search</button>
                   </div>
                 </div>

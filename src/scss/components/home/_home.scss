@@ -16,7 +16,8 @@
               background-color: var(--main_bg);
               color: #fff;
               box-shadow: var(--shadow_color);
-              h1 {
+              h2 {
+                padding-top: 5px;
                 text-transform: uppercase;
                 margin-bottom: 18px;
               }
@@ -26,10 +27,9 @@
                 }
                 .btn {
                   background-color: #ee1c1c;
-                  // padding: ;
                   text-transform: uppercase;
                   font-weight: 400;
-                  transition: al 0.3s;
+                  transition: all 0.3s;
                   &:hover {
                     background-color: #813c3c;
                   }
