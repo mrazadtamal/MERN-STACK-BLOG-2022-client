@@ -1,3 +1,26 @@
 .home {
   background-color: var(--second-bg);
+  .main-content {
+    .container {
+      .row {
+        .col-8 {
+        }
+        .col-4 {
+          .search-category-tag {
+            margin-left: 10px;
+            .search {
+              padding: 15px, 10px;
+              text-align: center;
+              background-color: var(--main_bg);
+              color: #fff;
+              box-shadow: var(--shadow_color);
+              h1 {
+                text-transform: uppercase;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
