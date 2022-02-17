@@ -11,6 +11,20 @@
   .row {
     @media only screen and(max-width:991px) {
       flex-direction: column;
+      .col-4 {
+        width: 100%;
+        .image-menubar {
+          label.menu_icon {
+            display: flex !important;
+          }
+        }
+      }
+      .col-8 {
+        width: 100%;
+        ul.link-list {
+          flex-direction: column;
+        }
+      }
     }
     .col-4 {
       .image-menubar {
