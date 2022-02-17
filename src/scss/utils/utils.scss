@@ -3,3 +3,29 @@
   margin: 0px auto;
   padding: 0px 3rem;
 }
+.form-group {
+  margin: 8px 0;
+}
+.form-control {
+  padding: 0px 5px;
+  width: 100%;
+  border: 1px solid var(--border-color);
+  outline: none;
+  height: 35px;
+  font-size: 15px;
+  transition: all 0.5s;
+  &:focus {
+    border: 1px solid green;
+  }
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 8px;
+  font-size: 1rem;
+  border: transparent;
+  height: 33px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
