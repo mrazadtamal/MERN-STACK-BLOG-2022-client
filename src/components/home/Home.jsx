@@ -19,13 +19,20 @@ const Home = () => {
                   <h2>Search</h2>
                   <div className="form-group">
                     <input
-                      type="text"
+                      // onChange={(e) => setvalue(e.target.value)}
                       className="form-control"
+                      type="text"
                       placeholder="search"
                     />
                   </div>
                   <div className="form-group">
-                    <button className="btn btn-block">Search</button>
+                    <button
+                      //  onClick={search}
+
+                      className="btn btn-block"
+                    >
+                      Search
+                    </button>
                   </div>
                 </div>
               </div>
